@@ -1,0 +1,251 @@
+*{
+	margin: 0px;
+	font-family: Arial;
+	border: border-box;
+	
+.navbar{
+	height: 70px;
+	background-color: #0f1111;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.nav-logo{
+	height: 40px;
+	width: 100px;
+}
+#logo{
+	background:url("../img/png-transparent-amazon-dark-hd-logo-removebg-preview.png");
+	background-size: cover;
+	height: 40px;
+	width: 100%;
+	align-items: center;
+}
+.border{
+	border: 1.5px solid transparent;
+}
+.border:hover{
+	border: 1.5px solid white;
+}
+.nav-adress{
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+}
+.add-first{
+	color: #cccccc;
+	font-size: 1rem;
+	margin-left: 17px;
+}
+.nav-search{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: orange;
+	width: 620px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.search-select{
+	background-color: #f3f3f3;
+	width: 50px;
+	text-align: center;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border: none;
+}
+.search-input{
+	width: 100%;
+	font-size: 1rem;
+	border: none;
+}
+.nav-search:hover {
+	border: 2px solid orange;
+}
+.search-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	width: 45px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	color: black;
+}
+
+span{
+	font-size: 0.75rem;
+}
+.sign-first{
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+.nav-cart{
+	display: flex;
+}
+.nav-cart-image{
+	font-size: 1.5rem;
+}
+.cart-font{
+	margin-top: 8px;
+	margin-left: 2px;
+}
+.menu{
+	display: flex;
+	height: 40px;
+	color: white;
+	background-color:#222f3d;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.menu-ops p{
+	display: inline;
+	
+}
+.menu-all{
+	display: flex;
+	font-weight: 500;
+	
+}
+.menu-ops{
+	width: 70%;
+	margin-left: 15px;
+	font-size: 0.9rem;
+}
+.menu-deal{
+	font-weight: 700;
+	font-size: 1rem;
+}
+.hero{
+	background-image: url("../img/hero_.jpg");
+	background-size: cover;
+	height: 350px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+}
+.hero-msg{
+	width: 80%;
+	background-color: white;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+	height: 35px;
+	font-size: 0.85rem;
+}
+.hero-msg a{
+	color: rgb(18, 170, 170);
+	
+}
+.box-content{
+	height: 400px;
+	width: 100px;
+	border: 2px solid black;
+}
+.shop-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: rgb(221, 190, 195);
+}
+.box{
+	height: 385px;
+	width: 23%;
+	background-color: white;
+	padding: 20px 0px 15px;
+	margin-top: 15px;
+}
+
+.box-img{
+	height: 300px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+.box-con{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.box-con p{
+	color: rgb(68, 216, 216);
+}
+
+footer{
+	margin-top: 15px;
+}
+.footer-panel1{
+	background-color: #37475a;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.footer-panel2{
+	background-color: #222f3d;
+	color: white;
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 20px;
+}
+ul a{
+	display: block;
+	padding-top: 5px;
+	font-size: 0.85rem;
+	color: #dddddd;
+}
+ul a:hover{
+	text-decoration: underline;
+}
+ul p{
+	font-size: 1rem;
+	font-weight: 600;
+	padding-bottom: 15px;
+}
+.footer-panel1:hover{
+	background-color: #3f5570;
+}
+
+.footer-panel3{
+	height: 70px;
+	width: 100%;
+	background-color: #222f3d;
+	border-top: 0.3px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#logo{
+	background-image:url("../img/png-transparent-amazon-dark-hd-logo-removebg-preview.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 100px;
+}
+.footer-panel4{
+	background-color: #222f3d;
+	height: 70px;
+	color: #dddddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	font-size: 0.7rem;
+	flex-direction: column;
+}
+
+.footer-panel4 a{
+	margin-left: 10px;
+}
+.footer-panel4 p{
+	margin-top: 5px;
+}
+.footer-panel4 a:hover{
+	text-decoration: underline;
+}
